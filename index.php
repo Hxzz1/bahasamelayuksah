@@ -12,9 +12,6 @@
       echo "Error: The header.php file does not exist.";
    }
    ?>
-   <?php
-      $config = json_decode(file_get_contents('config.json'), true);
-   ?>
 
 </head>
 
